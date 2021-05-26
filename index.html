@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,32 +9,62 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
+
 <body>
-    <ul>
-        <li><a href="">About</a> </li>
-        <li><a href="">Store</a> </li>
-        <li><a href="">Gmail</a> </li>
-        <li><a href="">Images</a> </li>
-        <li><a href=""><span class="material-icons">
-            apps
-            </span></a> 
-        </li>
-        <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
-            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
-            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
-          </svg></a>
-        </li>
-    </ul>
-    
-    <div>
+    <nav class="navbar">
+        <ul>
+            <li class="about link-a"><a href="">About</a> </li>
+            <li class="store link-a"><a href="">Store</a> </li>
+            <li class="link-a"><a href="">Gmail</a> </li>
+            <li class="link-a"><a href="">Images</a> </li>
+            <li><a href=""><span class="material-icons link-b">
+                        apps
+                    </span>
+                </a>
+            </li>
+            <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="black"
+                        class="bi bi-person-circle link-b" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                        <path fill-rule="evenodd"
+                            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                    </svg></a>
+            </li>
+
+        </ul>
+    </nav>
+
+    <div class="logo">
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
-        <form action="">
-            <label for="search"></label>
-            <input type="text" name="search">
-        </form>
+    </div>
+
+    <div class="bar">
+        <span class="material-icons glass">
+            search
+        </span>
+        <input class="searchbar" type="text" name="search">
+    </div>
+
+    <div class="buttons">
         <button type="button">Google Search</button>
         <button type="button">I'm Feeling Lucky</button>
-        
     </div>
+
+    <div class="navbar-footer">
+        <div class="footer-start">
+            <a href="">Advertising</a>
+            <a href="">Business</a>
+            <a href="">How Search works</a>
+        </div>
+        <div class="footer-middle">
+            <a href="">Carbon neutral since 2007</a>
+        </div>
+        <div class="footer-end">
+            <a href="">Privacy</a>
+            <a href="">Terms</a>
+            <a href="">Settings</a>
+        </div>
+    </div>
+
 </body>
+
 </html>
